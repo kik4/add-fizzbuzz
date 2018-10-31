@@ -1,0 +1,46 @@
+{
+  "name": "add-fizzbuzz",
+  "version": "1.0.0",
+  "description": "add FizzBuzz number",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "prod": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kik4/add-fizzbuzz.git"
+  },
+  "author": "kik4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kik4/add-fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/kik4/add-fizzbuzz#readme",
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^23.3.5",
+    "@types/node": "^10.12.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
